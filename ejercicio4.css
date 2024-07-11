@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212; /* Fondo negro */
+    color: #ffffff; /* Letras blancas */
+    font-family: Arial, sans-serif;
+    padding-top: 80px; /* Añade relleno superior para empujar todo el contenido hacia abajo */
+}
+
+.image-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.autor {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.precio {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.album-cover {
+    width: 100%; /* Ajusta el tamaño de la imagen a todo el contenedor */
+    height: auto; /* Mantén la proporción de la imagen */
+}
+
+.imagenes {
+    border: 3px solid #298deb;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 600px; /* Tamaño máximo del contenedor */
+    text-align: center;
+}
+
+.imagenes:hover {
+    transform: scale(1.1); /* Transformación de escala al pasar el ratón */
+}
+
+.imagenes2 {
+    display: flex; /* Usa flexbox para el diseño */
+    border: 3px solid #298deb;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left; /* Alinea el texto a la izquierda dentro de su contenedor */
+    align-items: center; /* Centra verticalmente */
+}
+
+.imagenes2:hover {
+    transform: scale(1.1); /* Transformación de escala al pasar el ratón */
+}
+
+.album-cover2 {
+    width: 50%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantén la proporción de la imagen */
+}
+
+
+
+.text-content {
+    width: 100%; /* Ajusta el tamaño del contenedor del texto */
+    padding-left: 10px; /* Añade espacio entre la imagen y el texto */
+   
+}
+
+/* imágenes individuales */
+#imagen1 {
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+#imagen2 {
+    margin-top: 10px;
+    width: 610px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+
+#imagen3 {
+    width: 300px;
+    height: 500px;
+    margin-left: 330px;
+    margin-top: -810px;
+}
+
+#imagen4 {
+    margin-top: -500px;
+    width: 610px;
+    height: 300px;
+    margin-left: 640px;
+}
+
+
+#imagen5 {
+    width: 300px;
+    height: 500px;
+    margin-left: 640px;
+    margin-top: 10px;
+}
+
+#imagen6 {
+    width: 300px;
+    height: 500px;
+    margin-left: 948px;
+    margin-top: -500px;
+}
